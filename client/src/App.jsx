@@ -11,7 +11,7 @@ const App = () => {
 	const { authUser, isLoading } = useContext(AuthContext);
 
 	if (isLoading) {
-		return <div className="flex items-center justify-center w-full h-screen bg-[url('./src/assets/bgImage.svg')] bg-contain">
+		return <div className="flex items-center justify-center w-full h-screen bg-[url('/bgImage.svg')] bg-contain">
 			<p className="text-white text-2xl">Loading...</p> 
 		</div>;
 	}
